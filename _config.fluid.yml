@@ -154,10 +154,11 @@ about:
     - { class: 'iconfont icon-douban-fill', link: 'https://douban.com', tip: '豆瓣' }
     - { class: 'iconfont icon-wechat-fill', qrcode: '/img/common/favicon.ico' }
 
-# 自定义页面的配置
-page:
-  banner_img: /img/common/bg.jpg  
-  banner_img_height: 70
+# 统一给文章设置一个默认图片
+post:
+  default_index_img: /img/common/bg.jpg
+  banner_img: /img/common/bg.jpg
+
 
 navbar:
   blog_title: Wang Blog
