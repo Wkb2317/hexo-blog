@@ -131,6 +131,11 @@ index:
   # 生效啦
   banner_img: /img/common/bg.jpg  
   banner_img_height: 70
+  post_url_target: _blank
+  post_meta:
+    date: true
+    category: true
+    tag: true
 
 #标签页
 tag:
@@ -154,8 +159,9 @@ about:
     - { class: 'iconfont icon-douban-fill', link: 'https://douban.com', tip: '豆瓣' }
     - { class: 'iconfont icon-wechat-fill', qrcode: '/img/common/favicon.ico' }
 
-# 统一给文章设置一个默认图片
+
 post:
+  # 统一给文章设置一个默认图片
   default_index_img: /img/common/bg.jpg
   banner_img: /img/common/bg.jpg
 
